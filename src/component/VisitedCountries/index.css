@@ -1,0 +1,26 @@
+.country-flag-list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f2f;
+  margin: 10px;
+}
+.country-flag {
+  height: 200px;
+  width: 300px;
+}
+
+.flag-name-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.country-name {
+  font-size: 20px;
+}
+.remove-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
